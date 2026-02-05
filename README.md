@@ -1,4 +1,4 @@
-# sdl-integration-for-android-project
+# SDL-integration-for-android-project
 The plan to re-integrate SDL-based controller input into the Android input driver. Allows for robust controller support through the SDL library to run this in a headless foreground service for background input processing.
 
 # Instroduction: Overview of the Refactored Android Input System
