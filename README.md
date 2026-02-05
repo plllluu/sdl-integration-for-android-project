@@ -1,9 +1,9 @@
-# SDL-integration-for-android-project
+**# SDL-integration-for-android-project**
 The plan to re-integrate SDL-based controller input into the Android input driver. Allows for robust controller support through the SDL library to run this in a headless foreground service for background input processing.
 
 # Instroduction: Overview of the Refactored Android Input System
 
-## Overview
+**## Overview**
 
 **Simple DirectMedia Layer** (SDL) It is a cross-platform development library designed to provide low-level access to hardware through graphical, audio, and input device interfaces.
 This document provides an overview of the successfully integration SDL in Android input handling system. The original implementation, which standard Android input events in a single driver, has been replaced by a cleaner, more robust dual-driver architecture.
@@ -17,7 +17,7 @@ This document, along with the subsequent parts, will serve as the definitive rec
 
 ---
 
-## Key Architectural Changes
+**## Key Architectural Changes**
 
 - **Driver Separation:** The monolithic `android` driver was split. All SDL-related logic was moved into the new `SdlAndroid` driver, leaving the original `Android` driver to handle only native inputs.
 - **Unified Manual Mapping:** The central `InputSubsystem` was corrected to handle manual input mapping from either driver. It now polls both drivers simultaneously and accepts the first valid input, providing a seamless user experience.
@@ -25,7 +25,7 @@ This document, along with the subsequent parts, will serve as the definitive rec
 
 This series of documents will provide the full, final code for each of these components.
 
-#### Plan:
+**#### Plan files:**
 
 1.  [**Modify `src/android/app/build.gradle.kts`:** Add the `jniLibs` directory to the `sourceSets` and enable SDL in the CMake build.](GoodPlan1/Part2_SDL_Integration_ok_build_gradle.md)
 
