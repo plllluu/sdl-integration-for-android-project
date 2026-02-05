@@ -27,7 +27,7 @@ This series of documents will provide the full, final code for each of these com
 
 #### Plan:
 
-1.  **Modify `src/android/app/build.gradle.kts`:** Add the `jniLibs` directory to the `sourceSets` and enable SDL in the CMake build.
+1.  [**Modify `src/android/app/build.gradle.kts`:** Add the `jniLibs` directory to the `sourceSets` and enable SDL in the CMake build.](GoodPlan1/Part1_SDL_Integration_ok_overview.md)
 2.  **Modify `src/android/app/src/main/jni/CMakeLists.txt`:** Add `SDL3` as an imported library and link it to the `yuzu-android` native library. Also, add the new `main.cpp` to the `add_library` command.
 3.  **Modify `src/input_common/CMakeLists.txt`:** Do not link against the `SDL2::SDL2` target.
 4.  **Modify `src/input_common/drivers/android.h`:** Update the header to include SDL headers and declare the necessary member variables and functions for SDL integration, using `src-v1old` as a reference.
