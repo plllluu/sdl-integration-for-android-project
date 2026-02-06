@@ -1,6 +1,8 @@
-**# SDL-integration-for-android-project**
+**# SDL-integration-for-android-project** ( This document for education purpose only )
+
 The plan to re-integrate SDL-based controller input into the Android input driver. Allows for robust controller support through the SDL library to run this in a headless foreground service for background input processing.
 
+Nexttime we will do UDP client controller for remote control a android device from another android device. The implementation will be included motion input and multicontroller based on CemuHook protocol! 
 # Instroduction: Overview of the Refactored Android Input System
 
 **## Overview**
