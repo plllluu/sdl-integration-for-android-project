@@ -56,8 +56,10 @@ This series of documents will provide the full, final code for each of these com
 14. [**Refine `src/android/app/src/main/jni/CMakeLists.txt`:** Use a modern CMake target for SDL3 and add the header include directory.](GoodPlan1/Part14_SDL_Integration_ok_CMake_Refinement.md)
 
 Screenshots:
-<img src="screenshot/Screenshot 2026-02-05 193033.png" alt="Alt text" width="500"/>
-<img src="screenshot/Screenshot 2026-02-05 193245.png" alt="Alt text" width="500"/>
-<img src="screenshot/Screenshot 2026-02-05 193406.png" alt="Alt text" width="500"/>
-<img src="screenshot/Screenshot 2026-02-05 193510.png" alt="Alt text" width="500"/>
+<p align="center">
+<img src="Screenshot/Screenshot%202026-02-05%20193033.png" alt="Alt text" width="500"/>
+<img src="Screenshot/Screenshot%202026-02-05%20193245.png" alt="Alt text" width="500"/>
+<img src="Screenshot/Screenshot%202026-02-05%20193406.png" alt="Alt text" width="500"/>
+<img src="Screenshot/Screenshot%202026-02-05%20193510.png" alt="Alt text" width="500"/>
+</p>
 
