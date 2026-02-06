@@ -54,3 +54,9 @@ This series of documents will provide the full, final code for each of these com
 13. [**Create `src/android/app/src/main/java/org/yuzu/yuzu_emu/features/input/model/SdlMapping.kt`:** Create the data class for passing captured SDL input data to the UI.](GoodPlan1/Part13_SDL_Integration_ok_SdlMapping.md)
 
 14. [**Refine `src/android/app/src/main/jni/CMakeLists.txt`:** Use a modern CMake target for SDL3 and add the header include directory.](GoodPlan1/Part14_SDL_Integration_ok_CMake_Refinement.md)
+
+Screenshots:
+[Pic1](screenshot/Screenshot 2026-02-05 193033.png)
+[Pic1](screenshot/Screenshot 2026-02-05 193245.png)
+[Pic1](screenshot/Screenshot 2026-02-05 193406.png)
+[Pic1](screenshot/Screenshot 2026-02-05 193510.png)
